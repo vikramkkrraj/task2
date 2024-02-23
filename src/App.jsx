@@ -15,8 +15,8 @@ function App() {
         <Card />
         <Navbar />
         <div className="btn">
-        <Button props={"Buy BTC"} color={"#FC2E9C"} />
-        <Button props={"Sell BTC"} color={"#1C7EF2"} />
+        <Button props={"Buy BTC"} color={["#18BBFA", "#1C7EF2"]} />
+        <Button props={"Sell BTC"} color={["#FE5D82", "#FC2E9C"]} />
         </div>
         <Footer />
       </div>
