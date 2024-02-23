@@ -4,7 +4,7 @@ import './Button.scss';
 
 export const Button = ({ props, color }) => {
 
-  console.log(color)
+
 
   const gradientStyle = {
     background: `linear-gradient(${color[0]},${color[1]})`,
