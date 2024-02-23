@@ -41,11 +41,11 @@ export const Chart = ({ selectedOption }) => {
         <div className="values">
           <div className="left">
             <div className="dot-left"></div>
-            <div>Lower ${chartData.lower}</div>
+            <div>Lower: ${chartData.lower}</div>
           </div>
           <div className="right">
             <div className="dot-right"></div>
-            <div>Higher ${chartData.higher}</div>
+            <div>Higher: ${chartData.higher}</div>
           </div>
         </div>
 
