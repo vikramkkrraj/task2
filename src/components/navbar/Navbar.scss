@@ -1,0 +1,28 @@
+.main-container {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+
+  .list-item {
+    margin: 0 2px;
+    display: flex;
+    text-decoration: nonn;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;;
+
+    li {
+      padding: 3px 15px 3px 15px;
+      color: #AEB8C4;
+    }
+    li:hover {
+      background-color: #aeb8c4;
+      border-radius: 10px;
+      color: white;
+    }
+
+  }
+}
+
+

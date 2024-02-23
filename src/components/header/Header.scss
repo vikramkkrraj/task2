@@ -1,0 +1,26 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+
+  .left-item {
+    font-size: x-large;
+    margin-top: 8px;
+    color: #aeb8c4;
+  }
+
+  .right-item {
+    font-size: x-large;
+    margin-top: 8px;
+    color: #aeb8c4;
+
+  }
+}

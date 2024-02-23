@@ -1,0 +1,29 @@
+.dollar {
+  width: 160px;
+  height: 111px;
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+  .simbole {
+    background: green;
+    height: 40px;
+    border-radius: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    color: white;
+    font-size: x-small;
+  }
+  .children-name {
+    line-height: 0%;
+  }
+}
