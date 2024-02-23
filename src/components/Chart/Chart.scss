@@ -1,3 +1,5 @@
+@import '../../mixins.scss';
+
 .main-container-chart {
   display: flex;
   align-items: center;
@@ -13,9 +15,10 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
+    
 
     .left {
-      margin: 10px;
+      margin-left: 30px;
       display: flex;
       align-items: center;
       color: #AEB8C4;
@@ -29,7 +32,7 @@
       }
     }
     .right {
-      margin-right: 20px;
+      margin-right: 30px;
       display: flex;
       align-items: center;
       color: #AEB8C4;
